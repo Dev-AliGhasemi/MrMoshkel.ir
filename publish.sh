@@ -6,7 +6,7 @@ httrack  http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Pub
 echo "--------------------------- Copy site done ---------------------------"
 if [ $? -eq 0 ]
 then
-	git commit -am "`date`" ; git push origin main
+	git add -A ; git commit -m "`date`" ; git push origin main
 	echo "--------------------------- Publish done ---------------------------"
 else
 	echo "publish failed."
