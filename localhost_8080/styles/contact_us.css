@@ -1,0 +1,36 @@
+@import "main_page.html";
+
+.main {
+    padding-bottom: 150px;
+}
+
+section {
+    width: 100%;
+    overflow: auto;
+    background-color: rgb(24, 25, 25);
+    border: 2px solid #3C3C3D;
+    padding: 10px;
+    border-radius: 5px;
+    direction: rtl;
+    margin-bottom: 10px;
+}
+
+section > h2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+section ul {
+    color: white;
+}
+
+main a {
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(19, 202, 152);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
