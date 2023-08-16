@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Wed, 16 Aug 2023 23:03:12 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Wed, 16 Aug 2023 23:31:45 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC2 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,22 +6,15 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-23:03:12	Warning: 	Unexpected socket error during pre-loop
-23:03:13	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/robots.txt (from primary/primary)
-23:03:13	Warning: 	Unexpected socket error during pre-loop
-23:03:14	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
-23:03:14	Warning: 	Unexpected socket error during pre-loop
-23:03:15	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
-23:05:35	Warning: 	Retry after error -2 (Receive Time Out) at link https://www.agilesparks.com/wp-content/uploads/2022/08/Java_logo_icon.png (from localhost:8080/home/post?postId=3)
-23:05:36	Warning: 	Retry after error -2 (Receive Time Out) at link https://cdn-media-1.freecodecamp.org/images/1*rU6KNs9KfdROiENL-UQTNA.jpeg (from localhost:8080/home/course?courseId=10)
-23:07:20	Error: 	"error:00000005:lib(0)::reason(5)" (-5) after 2 retries at link https://wallpapers.com/robots.txt (from localhost:8080/home/course?courseId=5)
-23:07:27	Warning: 	Retry after error -5 (error:00000001:lib(0)::reason(1)) at link https://wallpapers.com/images/high/android-developer-0m3xeqfvwcisdodg.webp (from localhost:8080/home/course?courseId=5)
-23:07:29	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://www.agilesparks.com/wp-content/uploads/2022/08/Java_logo_icon.png (from localhost:8080/home/post?postId=3)
-23:07:30	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://cdn-media-1.freecodecamp.org/images/1*rU6KNs9KfdROiENL-UQTNA.jpeg (from localhost:8080/home/course?courseId=10)
-23:07:43	Warning: 	Retry after error -5 (error:00000005:lib(0)::reason(5)) at link https://wallpapers.com/images/high/android-developer-0m3xeqfvwcisdodg.webp (from localhost:8080/home/course?courseId=5)
-23:07:44	Error: 	"error:00000005:lib(0)::reason(5)" (-5) after 2 retries at link https://www.agilesparks.com/wp-content/uploads/2022/08/Java_logo_icon.png (from localhost:8080/home/post?postId=3)
-23:07:45	Error: 	"error:00000005:lib(0)::reason(5)" (-5) after 2 retries at link https://cdn-media-1.freecodecamp.org/images/1*rU6KNs9KfdROiENL-UQTNA.jpeg (from localhost:8080/home/course?courseId=10)
-23:07:45	Error: 	"error:00000005:lib(0)::reason(5)" (-5) after 2 retries at link https://wallpapers.com/images/high/android-developer-0m3xeqfvwcisdodg.webp (from localhost:8080/home/course?courseId=5)
-
-HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 33 seconds : 40 links scanned, 27 files written (1929456 bytes overall), 12 files updated [80657 bytes received at 295 bytes/sec], 1.4 requests per connection
-(5 errors, 11 warnings, 0 messages)
+23:31:45	Warning: 	Cache: damaged cache, trying to repair
+23:31:45	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+23:31:45	Warning: 	Cache: error trying to open the cache
+23:31:45	Warning: 	Unexpected socket error during pre-loop
+23:31:46	Warning: 	Unexpected socket error during pre-loop
+23:31:47	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/robots.txt (from primary/primary)
+23:31:47	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
+23:31:47	Warning: 	Unexpected socket error during pre-loop
+23:31:48	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
+23:31:48	Warning: 	Unexpected socket error during pre-loop
+23:31:49	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/home/posts (from primary/primary)
+23:31:49	Warning: 	No data seems to have been transferred during this session! : restoring previous one!

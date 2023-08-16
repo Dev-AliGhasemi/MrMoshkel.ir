@@ -1,6 +1,8 @@
 #!/bin/sh
 
-startup.sh
+export JAVA_HOME="/usr/lib/jvm/jdk-17/bin/"
+
+/home/ali/java/apache-tomcat-9.0.41/bin/startup.sh
 echo "--------------------------- Tomcat started ---------------------------"
 httrack --update http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n
 echo "--------------------------- Copy site done ---------------------------"
@@ -11,5 +13,5 @@ then
 else
 	echo "publish failed."
 fi
-shutdown.sh
+/home/ali/java/apache-tomcat-9.0.41/bin/shutdown.sh
 echo "--------------------------- Tomcat shutdown ---------------------------"
