@@ -1,0 +1,258 @@
+@font-face {
+    font-family: "IRANSans UltraLight";
+    src: url("../fonts/IRANSans_UltraLight.ttf") format("truetype");
+}
+
+mark {
+    background-color: transparent;
+    color: rgb(19, 202, 152);
+}
+
+body {
+    margin: 0;
+    direction: rtl;
+    background-color: #201F1F;
+    position: relative;
+    font-family: "IRANSans UltraLight";
+}
+
+header {
+    background-color: rgba(32, 31, 31, 0.8);
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.topmenu a {
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.topmenu a:hover:not(:first-child) {
+    background-color: rgb(19, 202, 152);
+}
+
+.topmenu img {
+    height: 80%;
+}
+
+.slogan {
+    display: flex;
+    width: 100%;
+    height: 45%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 282px;
+    max-height: 390px;
+}
+
+.slogan > img {
+    object-fit: cover;
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+}
+
+.slogan > h1 {
+    color: white;
+    position: absolute;
+}
+
+.main {
+    width: 55%;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+article {
+    width: 100%;
+    overflow: auto;
+    overflow-wrap: anywhere;
+    background-color: rgb(24, 25, 25);
+    border: 2px solid #3C3C3D;
+    padding: 10px;
+    border-radius: 5px;
+    direction: rtl;
+    margin-bottom: 10px;
+}
+
+
+article a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+article hr {
+    float: top;
+    width: 50px;
+    height: 2px;
+    background-color: #3C3C3D;
+    border: none;
+    margin-right: 20px;
+}
+
+article > h4 {
+    font-weight: normal;
+    float: top;
+    margin: 10px 10px 5px 0px;
+    color: rgb(101, 104, 108);
+}
+
+
+article > p {
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+article a:hover:not(.read-more) {
+    text-decoration: none;
+    color: rgb(19, 202, 151);
+}
+
+
+article > .read-more {
+    border: 2px solid rgb(19, 202, 151);
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 6px 15px 6px 15px;
+    transition-duration: 0.5s;
+    transition-property: background-color;
+    margin-left: 10px;
+    float: left;
+}
+
+article > .read-more:hover {
+    background-color: rgb(19, 202, 151);
+}
+
+article p {
+    direction: rtl;
+    margin-right: 20px;
+    float: right;
+    color: white;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside {
+    width: 30%;
+    background-color: rgb(24, 25, 25);
+    border: 2px solid #3C3C3D;
+    border-radius: 5px;
+    direction: rtl;
+}
+
+.head-last-post {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    color: white;
+    font-weight: bold;
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(32, 31, 31);
+}
+
+.content-last-post {
+    float: top;
+    color: white;
+    padding: 10px 10px 0px 0px;
+    transition-property: background-color;
+    transition-duration: 0.5s;
+}
+
+.content-last-post h3 {
+    margin-top: 0px;
+}
+
+.content-last-post h5 {
+    margin: 0px;
+}
+
+.content-last-post:hover {
+    background-color: rgb(32, 31, 31);
+}
+
+.content-last-post > hr {
+    width: 80%;
+    height: 2px;
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    background-color: rgb(54, 52, 52);
+}
+
+aside > hr {
+    margin: 0px;
+    width: 100%;
+    height: 5px;
+    border: none;
+    background-color: rgb(19, 202, 151);
+}
+
+main {
+    width: 67%;
+    float: left;
+    padding-bottom: 100px;
+}
+
+pagination {
+    margin-top: 20px;
+    display: flex;
+}
+
+pagination > a {
+    background-color: #3C3C3D;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+pagination > a:first-child {
+    border-radius: 0px 10px 10px 0px;
+}
+
+pagination > a:last-child {
+    border-radius: 10px 0px 0px 10px;
+}
+
+pagination > a:hover {
+    background-color: #40BB95;
+    cursor: pointer;
+}
+
+
+footer > * {
+    font-family: "IRANSans UltraLight";
+    direction: rtl;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
