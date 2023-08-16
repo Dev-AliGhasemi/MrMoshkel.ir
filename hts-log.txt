@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Wed, 16 Aug 2023 23:59:03 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 17 Aug 2023 00:03:03 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC1 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,15 +6,15 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-23:59:03	Warning: 	Cache: damaged cache, trying to repair
-23:59:03	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
-23:59:03	Warning: 	Cache: error trying to open the cache
-23:59:03	Warning: 	Unexpected socket error during pre-loop
-23:59:04	Warning: 	Unexpected socket error during pre-loop
-23:59:05	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/robots.txt (from primary/primary)
-23:59:05	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
-23:59:05	Warning: 	Unexpected socket error during pre-loop
-23:59:06	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
-23:59:06	Warning: 	Unexpected socket error during pre-loop
-23:59:07	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/home/posts (from primary/primary)
-23:59:07	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
+00:03:03	Warning: 	Cache: damaged cache, trying to repair
+00:03:03	Warning: 	Cache: 0 bytes successfully recovered in 0 entries
+00:03:03	Warning: 	Cache: error trying to open the cache
+00:03:03	Warning: 	Unexpected socket error during pre-loop
+00:03:04	Warning: 	Unexpected socket error during pre-loop
+00:03:05	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/robots.txt (from primary/primary)
+00:03:05	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
+00:03:05	Warning: 	Unexpected socket error during pre-loop
+00:03:06	Warning: 	Retry after error -4 (Receive Error) at link localhost:8080/home/posts (from primary/primary)
+00:03:06	Warning: 	Unexpected socket error during pre-loop
+00:03:07	Error: 	"Receive Error" (-4) after 2 retries at link localhost:8080/home/posts (from primary/primary)
+00:03:07	Warning: 	No data seems to have been transferred during this session! : restoring previous one!
