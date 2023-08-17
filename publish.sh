@@ -12,7 +12,7 @@ sleep 4
 if [ $? -eq 0 ]
 then
 	echo "--------------------------- Tomcat started ---------------------------"
-	httrack --continue http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n
+	httrack http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n
 	echo "--------------------------- Copy site done ---------------------------"
 	if [ $? -eq 0 ]
 	then
