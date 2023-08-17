@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 17 Aug 2023 06:58:11 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 17 Aug 2023 06:58:24 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC1 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
