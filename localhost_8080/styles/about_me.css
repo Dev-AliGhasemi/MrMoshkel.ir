@@ -1,0 +1,44 @@
+@import "contact_us.css";
+
+.main {
+    padding-bottom: 50px;
+}
+
+img.profile {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 60px;
+    border-color: #40BB95;
+    border-width: 3px;
+    border-style: solid;
+    padding: 5px;
+}
+
+p {
+    color: white;
+    text-align: justify;
+    text-indent: 20px;
+}
+
+mark {
+    background-color: transparent;
+    color: rgb(19, 202, 152);
+}
+
+section > h3 {
+    color: white;
+}
+
+h4 {
+    color: white;
+}
+
+main a {
+    text-decoration: none;
+    color: rgb(19, 202, 152);
+}
+
+main a:hover {
+    text-decoration: underline;
+}
