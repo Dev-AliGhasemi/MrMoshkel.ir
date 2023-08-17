@@ -1,6 +1,6 @@
 #!/bin/sh
 
-export JAVA_HOME=/usr/lib/jvm/jdk-17/bin/;
+export JAVA_HOME=/usr/lib/jvm/jdk-17;
 export CATALINA_HOME=/home/ali/java/apache-tomcat-9.0.41;
 export PATH=$PATH:$JAVA_HOME/bin:$CATALINA_HOME/bin;
 
