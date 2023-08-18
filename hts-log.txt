@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 17 Aug 2023 22:58:58 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Fri, 18 Aug 2023 22:21:44 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC2 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,9 +6,8 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-23:02:44	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
-23:02:46	Warning: 	Moved Permanently for https://assets.toptal.io/robots.txt
-23:02:46	Warning: 	File has moved from https://assets.toptal.io/robots.txt to https://www.toptal.com/robots.txt
+22:24:04	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
+22:24:07	Error: 	"Forbidden" (403) at link https://wallpapers.com/images/high/android-developer-0m3xeqfvwcisdodg.webp (from localhost:8080/home/course?courseId=5)
 
-HTTrack Website Copier/3.49-2 mirror complete in 3 minutes 49 seconds : 50 links scanned, 45 files written (2888765 bytes overall), 38 files updated [2342190 bytes received at 10227 bytes/sec], 56862 bytes transferred using HTTP compression in 1 files, ratio 100%, 2.2 requests per connection
-(1 errors, 2 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 23 seconds : 52 links scanned, 46 files written (2907087 bytes overall), 23 files updated [559139 bytes received at 3910 bytes/sec], 418 bytes transferred using HTTP compression in 1 files, ratio 100%, 2.2 requests per connection
+(2 errors, 0 warnings, 0 messages)
