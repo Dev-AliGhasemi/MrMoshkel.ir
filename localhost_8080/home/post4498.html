@@ -7,15 +7,14 @@
 
 <html>
 
-<!-- Mirrored from localhost:8080/home/post?postId=11 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Aug 2023 19:22:52 GMT -->
+<!-- Mirrored from localhost:8080/home/post?postId=13 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Aug 2023 19:22:51 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
-    <title>یک تجربه کوچولو</title>
+    <title>روش هایی که میشه OCP را به پروژه اعمال کرد</title>
     <link rel="stylesheet" href="../styles/post_page.css">
     <link rel="icon" type="image/png" href="../images/favicon.png"/>
     <meta name="description" content="<p>
-سلام یک تجربه کوچولو رو بگم و برم ، قطعا توی عمرتون پازل حل کردید !
-آدما توی حل پازل معمولا دو"/>
+OCP همون Open Closed Principle هست که یعنی کد برای توسعه باز و برای تغییر بسته باشه. اگر نمی دو"/>
     <meta name="author" content="Ali Ghasemi"/>
 </head>
 <body>
@@ -35,20 +34,22 @@
 </header>
 <div class="slogan">
     <img src="../images/puzzle.jpg">
-    <h1>یک تجربه کوچولو</h1>
+    <h1>روش هایی که میشه OCP را به پروژه اعمال کرد</h1>
 </div>
 <div class="main">
     <main>
-        <img class="post-image" src="../../media.licdn.com/dms/image/C5622AQFNTms7-vVM1g/feedshare-shrink_800/0/1636820710408105f.jpg?e=1695254400&amp;v=beta&amp;t=ifuWpU63eviUXEcK4Di62uUm0mV_aKyeWS1FUhxx9F8" alt="یک تجربه کوچولو" title="یک تجربه کوچولو">
+        <img class="post-image" src="../../hbr.org/resources/images/article_assets/2022/06/Jun22_17_1207483371..jpg" alt="روش هایی که میشه OCP را به پروژه اعمال کرد" title="روش هایی که میشه OCP را به پروژه اعمال کرد">
         <section>
-            <h2>یک تجربه کوچولو : </h2>
+            <h2>روش هایی که میشه OCP را به پروژه اعمال کرد : </h2>
             <p>
                 <p>
-سلام یک تجربه کوچولو رو بگم و برم ، قطعا توی عمرتون پازل حل کردید !
-آدما توی حل پازل معمولا دو تا رویکرد بیشتر ندارند یا از وسط پازل شروع میکنن یا از گوشه ها شروع می کنن به چیدن ، خب ! معمولا در هر دو مورد پازل رو حل میکنن ولی در پازل های بزرگتر حل برای کسی که از وسط شروع کرده سخت میشه و زمان بیشتری میبره .
-توی سیستم هایی که از پترن های معماری گرا مثل الگوهای سری اِم (MVC,MVP,MVVM,HMVC,MVA)
-استفاده می کنند هم تقریبا همچین داستانی هست . یعنی چی !؟ .
-یعنی به جای اینکه شما بیایید از وسط ماجرا شروع کنید به توسعه بیایید از نقاط ابتدایی و انتهایی پروژه رو توسعه بدید مثلا از سمت لایه Model  شروع کنید یا نه اصلا برید از End point  شروع کنید و بعد از تموم شدن یک سمت برید سمت دیگه مثلا اگر از Model  شروع کردید و تموم شد بعدش برید End point  و بعد از این هم برید سراغ لایه میانی ! اینطوری خیلی کارتون راحت تره مخصوصا توی سیستم های بزرگ یا حداقل سیستم هایی که از سری M استفاده می کنند . (البته ترجیح من شروع از لایه Data  و Model  هست )
+OCP همون Open Closed Principle هست که یعنی کد برای توسعه باز و برای تغییر بسته باشه. اگر نمی دونید یعنی چی بهتره در موردش تحقیق کنید.<br>
+من نمی خوام در مورد OCP صحبت کنم و فقط می خوام بگم چه روش هایی وجود داره تا شما بتونید OCP رو توی پروژتون Apply کنید. <br>
+روش ها شامل : <br>
+1- Smart change : اگر می بینید تغییر تون خییییییییییییییلی  کوچیکه و تاثیر زیادی نداره بی خیال OCP تغییرش بده بره. اما مراقب باگ های احتمالی باش.(هر چند اگر تغییرتون کوچیک باشه احتمال باگ هم پایینه) <br><br>
+2- Inheritance : اگر می خوایید یک قابلیت جدیدی اضافه کنید به جای اینکه کد های موجود را تغییر بدید یک کلاس بسازید و از کلاس موجود ارث ببرید و بعدش functionality خودتون رو اضافه کنید. البته دقت بکنید این روش ممکنه باعث بشه ارث بری نابحا داشته باشیم و ممکنه سیستم در آینده باگی بشه. <br><br>
+<mark>این حالت بیشتر برای سیستم هایی که Legasy هستند و کدشون از قبل نوشته شده هست.</mark><br><br>
+3- Strategy pattern : این یکی همون روش اصولیه است! چیز خاصی نمیگه فقط میگه اگر از الگوی Strategy استفاده کنید باعث OCP در پروژمون میشه.
 </p>
             </p>
         </section>
@@ -147,5 +148,5 @@
 </div>
 </body>
 
-<!-- Mirrored from localhost:8080/home/post?postId=11 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Aug 2023 19:22:52 GMT -->
+<!-- Mirrored from localhost:8080/home/post?postId=13 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 22 Aug 2023 19:22:52 GMT -->
 </html>
