@@ -1,5 +1,7 @@
 # HTTrack Website Copier Cookie File
 # This file format is compatible with Netscape cookies
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=VGST09:s=V:r=V:a=V:p=V:g=2650:u=1:x=1:i=1694286433:t=1694372833:v=2:sig=AQFtxiaXljaGXyAKO0sdveAv_26COZT2"
+media.licdn.com	TRUE	/	FALSE	1999999999	SameSite	None
 wallpapers.com	TRUE	/	FALSE	1999999999	country	DE
 wallpapers.com	TRUE	/	FALSE	1999999999	lang	en
 
