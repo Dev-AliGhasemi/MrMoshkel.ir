@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Mon, 11 Sep 2023 14:59:52 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Wed, 06 Dec 2023 22:32:00 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC2 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,9 +6,34 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-15:02:14	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
-15:02:48	Warning: 	Moved Permanently for https://assets.toptal.io/robots.txt
-15:02:48	Warning: 	File has moved from https://assets.toptal.io/robots.txt to https://www.toptal.com/robots.txt
+22:32:00	Warning: 	Cache: damaged cache, trying to repair
+22:32:00	Warning: 	Cache: 46019 bytes successfully recovered in 34 entries
+22:32:26	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/post4a6b.html.tmp already exists
+22:32:26	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/post163e.html.tmp already exists
+22:32:27	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/post7c7a.html.tmp already exists
+22:32:27	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/postd3ee.html.tmp already exists
+22:32:27	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/post8d02.html.tmp already exists
+22:32:28	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/posts4658.html.tmp already exists
+22:32:28	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/coursedd87.html.tmp already exists
+22:32:29	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/posts2679.html.tmp already exists
+22:32:29	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/course341d.html.tmp already exists
+22:32:29	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/course810f.html.tmp already exists
+22:32:29	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/coursee2bf.html.tmp already exists
+22:32:30	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/styles/about_me.css.tmp already exists
+22:32:30	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/course9848.html.tmp already exists
+22:32:30	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/home/course70e8.html.tmp already exists
+22:32:31	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/styles/contact_us.css.tmp already exists
+22:32:33	Warning: 	engine: warning: temporary file /home/ali/Dropbox/Web/MrMoshkel/Publication/localhost_8080/styles/post_page.css.tmp already exists
+22:34:55	Error: 	"Forbidden" (403) at link https://hbr.org/resources/images/article_assets/2022/06/Jun22_17_1207483371..jpg (from localhost:8080/home/post?postId=13)
+22:34:56	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQFNTms7-vVM1g/feedshare-shrink_800/0/1636820710408?e=1695254400&v=beta&t=ifuWpU63eviUXEcK4Di62uUm0mV_aKyeWS1FUhxx9F8 (from localhost:8080/home/post?postId=11)
+22:34:56	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQGHtYsPG5IyiQ/feedshare-shrink_1280/0/1637851766110?e=1695254400&v=beta&t=sdxgBjvpJJMZIw2GacPH-N4GVH0K30Xgv8EtHTaHfhw (from localhost:8080/home/post?postId=10)
+22:34:56	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQErV-LhdyqXNA/feedshare-shrink_1280/0/1638985766738?e=1695254400&v=beta&t=dHeb9bnX9o0h9WQ7zc2B4SbOZVeweeEClUuHWC0p7e4 (from localhost:8080/home/post?postId=9)
+22:34:56	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
+22:34:56	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
+22:36:57	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
+22:36:59	Warning: 	Moved Permanently for https://assets.toptal.io/robots.txt
+22:36:59	Warning: 	File has moved from https://assets.toptal.io/robots.txt to https://www.toptal.com/robots.txt
+22:38:57	Error: 	"Connect Time Out" (-2) after 2 retries at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
 
-HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 56 seconds : 60 links scanned, 55 files written (3462795 bytes overall), 28 files updated [690107 bytes received at 3921 bytes/sec], 2.2 requests per connection
-(1 errors, 2 warnings, 0 messages)
+HTTrack Website Copier/3.49-2 mirror complete in 6 minutes 57 seconds : 62 links scanned, 50 files written (2879398 bytes overall), 41 files updated [1723853 bytes received at 4133 bytes/sec], 256483 bytes transferred using HTTP compression in 4 files, ratio 73%, 1.8 requests per connection
+(6 errors, 22 warnings, 0 messages)

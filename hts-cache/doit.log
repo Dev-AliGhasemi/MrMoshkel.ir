@@ -1,5 +1,5 @@
 -iC2 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n
-File generated automatically on Mon, 11 Sep 2023 14:59:52, do NOT edit
+File generated automatically on Wed, 06 Dec 2023 22:32:00, do NOT edit
 
 To update a mirror, just launch httrack without any parameters
 The existing cache will be used (and modified)
