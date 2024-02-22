@@ -1,4 +1,4 @@
-HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 22 Feb 2024 15:05:49 at http://localhost:8080/home/posts +*localhost:8080*
+HTTrack3.49-2+libhtsjava.so.2 launched on Thu, 22 Feb 2024 15:36:21 at http://localhost:8080/home/posts +*localhost:8080*
 (httrack -iC2 http://localhost:8080/home/posts -O /home/ali/Dropbox/Web/MrMoshkel/Publication/ +*localhost:8080* -n )
 
 Information, Warnings and Errors reported for this mirror:
@@ -6,13 +6,13 @@ note:	the hts-log.txt file, and hts-cache folder, may contain sensitive informat
 	such as username/password authentication for websites mirrored in this project
 	do not share these files/folders if you want these information to remain private
 
-15:09:10	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQFNTms7-vVM1g/feedshare-shrink_800/0/1636820710408?e=1695254400&v=beta&t=ifuWpU63eviUXEcK4Di62uUm0mV_aKyeWS1FUhxx9F8 (from localhost:8080/home/post?postId=11)
-15:09:10	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQGHtYsPG5IyiQ/feedshare-shrink_1280/0/1637851766110?e=1695254400&v=beta&t=sdxgBjvpJJMZIw2GacPH-N4GVH0K30Xgv8EtHTaHfhw (from localhost:8080/home/post?postId=10)
-15:09:10	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQErV-LhdyqXNA/feedshare-shrink_1280/0/1638985766738?e=1695254400&v=beta&t=dHeb9bnX9o0h9WQ7zc2B4SbOZVeweeEClUuHWC0p7e4 (from localhost:8080/home/post?postId=9)
-15:09:10	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
-15:09:10	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
-15:11:10	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
-15:13:10	Error: 	"Connect Time Out" (-2) after 2 retries at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
+15:40:27	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQFNTms7-vVM1g/feedshare-shrink_800/0/1636820710408?e=1695254400&v=beta&t=ifuWpU63eviUXEcK4Di62uUm0mV_aKyeWS1FUhxx9F8 (from localhost:8080/home/post?postId=11)
+15:40:27	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQGHtYsPG5IyiQ/feedshare-shrink_1280/0/1637851766110?e=1695254400&v=beta&t=sdxgBjvpJJMZIw2GacPH-N4GVH0K30Xgv8EtHTaHfhw (from localhost:8080/home/post?postId=10)
+15:40:27	Error: 	"Forbidden" (403) at link https://media.licdn.com/dms/image/C5622AQErV-LhdyqXNA/feedshare-shrink_1280/0/1638985766738?e=1695254400&v=beta&t=dHeb9bnX9o0h9WQ7zc2B4SbOZVeweeEClUuHWC0p7e4 (from localhost:8080/home/post?postId=9)
+15:40:27	Error: 	"Forbidden" (403) at link https://www.simplilearn.com/ice9/free_resources_article_thumb/database_management.jpg (from localhost:8080/home/post?postId=8)
+15:40:27	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
+15:42:27	Warning: 	Retry after error -2 (Connect Time Out) at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
+15:44:27	Error: 	"Connect Time Out" (-2) after 2 retries at link https://www.techyourchance.com/wp-content/uploads/2021/01/runtime_permissions.jpg (from localhost:8080/home/post?postId=7)
 
-HTTrack Website Copier/3.49-2 mirror complete in 7 minutes 21 seconds : 62 links scanned, 51 files written (3158328 bytes overall), 30 files updated [667142 bytes received at 1512 bytes/sec], 63519 bytes transferred using HTTP compression in 2 files, ratio 94%, 2.0 requests per connection
+HTTrack Website Copier/3.49-2 mirror complete in 8 minutes 6 seconds : 64 links scanned, 53 files written (3186963 bytes overall), 29 files updated [313812 bytes received at 645 bytes/sec], 57564 bytes transferred using HTTP compression in 1 files, ratio 100%, 1.7 requests per connection
 (5 errors, 2 warnings, 0 messages)
